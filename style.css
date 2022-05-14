@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/*header style*/
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+
+.headLeft {
+    margin-top: 18px;
+    margin-right: 200px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+.navBar {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*hero style*/
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding-bottom: 60px;
+}
+
+.heroInfo {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 40px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+button {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+}
+
+/*image*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    margin-right: 80px;
+}
+
+/*random information*/
+.randomInfoHead {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 24px;
+}
+
+.randomContainer {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.randomInfo {
+    text-align: center;
+    color: #1f2937;
+    max-width: 200px;
+}
+
+/*quote block*/
+.quoteContainer {
+    display: block;
+    align-items: center;
+    background-color: lightgray;
+    margin-top: 64px;
+}
+
+.quoteText {
+    font-style: italic;
+    padding: 80px 180px 20px 180px;
+}
+
+.quoteAuthor {
+    text-align: right;
+    padding-right: 180px;
+    padding-bottom: 60px;
+    font-weight: bolder;
+}
+
+/*footer style*/
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 60px 150px 60px 150px;
+    padding: 60px;
+}
+
+.footerHead {
+    font-weight: 800;
+}
+
+.footerHead .footerText {
+    font-weight: 400;
+    margin-right: 60px;
+    padding-top: 8px;
+}
+
+.footerContainer button {
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+/*bottom*/
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;    
+}
